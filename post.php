@@ -2,12 +2,39 @@
 include "config.php";
 include "utils.php";
 
+$routeFiles = 'files/9786070765766.onix';
+$file = file_get_contents($routeFiles);
+$fileEncode = json_encode($file);
+$fileBase = base64_encode($file);
+$fileJson = json_encode($fileBase)
+//$fileJson = '{"archivo": $fileEncode}';
 
+echo $fileEncode;
+
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+echo $fileBase;
+
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+
+//echo 'Json decodificado';
+
+//$obj = json_decode($fileJson);
+
+//echo $obj->archivo;
+
+/*
 $dbConn =  connect($db);
+
 
 /*
   listar todos los posts o solo uno
- */
+ 
 if ($_SERVER['REQUEST_METHOD'] == 'GET')
 {
     if (isset($_GET['id']))
@@ -84,8 +111,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'PUT')
     exit();
 }
 
-
+*/
 //En caso de que ninguna de las opciones anteriores se haya ejecutado
-header("HTTP/1.1 400 Bad Request");
+//header("HTTP/1.1 400 Bad Request");
+
 
 ?>
