@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ONIXMessage release="3.0">
+<Header>
+	<Sender>
+		<SenderName>Nombre de la editorial</SenderName>
+	</Sender>
+	<SentDateTime>año/mes/día</SentDateTime> 			
+	<DefaultLanguageofText>spa</DefaultLanguageofText> 			
+</Header>
+<Product> <!-- Grupo de elementos de datos que describen un producto -->
+	<RecordReference>(ISBN del producto)</RecordReference> 			
+	<NotificationType>(Código de tipo de notificación o actualización)</NotificationType>
+	<RecordSourceType>(Código que indica el tipo de fuente que ha emitido el registro ONIX)</RecordSourceType>
+	<ProductIdentifier> <!-- Un grupo de elementos de datos que definen un identificador de un producto de acuerdo con un esquema específico.  -->
+		<ProductIDType>(Código del tipo de identificador del producto)</ProductIDType>
+		<IDTypeName>(Nombre que identifica un esquema de identificador propietario)</IDTypeName>
+		<IDValue>(Un identificador del tipo especificado en el elemento ProductIDType)</IDValue>
+	</ProductIdentifier>
+	<DescriptiveDetail> <!-- Grupo de datos esenciales para la descripción del producto -->
+		<ProductComposition>(Código de composición del producto)</ProductComposition>
+		<ProductForm>(Formato principal del libro)</ProductForm>
+		<ProductFormDetail>(Código del detalle de formato del producto)<ProductFormDetail/>
+		<Collection> <!--Grupo opcional de elementos de datos que llevan atributos de una colección de la que forma parte el producto-->
+			<CollectionType>(Código que indica el tipo de colección)</CollectionType>
+			<TitleDetail> <!--Grupo de elementos de datos que juntos dan el texto del título de una colección y especifican su tipo-->
+				<TitleType>(Código que indica el tipo de título)</TitleType>
+				<TitleElement> <!--Grupo de elementos de datos que juntos representan un elemento del título de una colección-->
+					<TitleElementLevel>(Código ONIX que indica el nivel de un elemento de título)<TitleElementLevel/>
+					<TitleText>(Título del producto)</TitleText>
+					<Subtitle>(Subtítulo del producto)<Subtitle/>
+				</TitleElement>
+			</TitleDetail>
+			<CollectionIdentifier> <!--Grupo repetible de elementos de datos que juntos especifian un identificador de una colección bibliográfica-->
+				<CollectionIDType>(Código que identifica un esquema del que se toma un identificador en el elemento IDValue)</CollectionIDType>
+				<IDTypeName>(Nombre que identifica un esquema de identificador propietario)<IDTypeName/>
+				<CollectionSequence> <!-- Grupo opcional de elementos de datos que indica alguna posición ordinal de un producto dentro de una colección -->
+					<CollectionSequenceType>(Código que identifica el tipo de pedido utilizado para el número de secuencia del producto dentro de la colección)</CollectionSequenceType>
+					<CollectionSequenceNumber>(Número que especifica la posición ordinal del producto en una colección)<CollectionSequenceNumber/>
+				</CollectionSequence>
+			</CollectionIdentifier>
+		</Collection>
+		<Contributor> <!-- Grupo de elementos de datos que juntos describen un contribuyente personal o corporativo de una colección -->
+			<SequenceNumber>(Número que especifica una secuencia general única de nombres de contribuyentes)<SequenceNumber/>
+			<ContributorRole>(Código que indica el papel desempeñado por una persona u organismo corporativo en la creación del producto)</ContributorRole>
+			<PersonName>(El nombre de una persona que contribuyó a la creación del producto)</PersonName>
+			<PersonNameInverted>(El nombre de una persona que contribuyó a la creación del producto, presentado con el elemento utilizado para la clasificación alfabética en primer lugar ("orden invertido"))</PersonNameInverted>
+			<NamesBeforeKey>(La segunda parte del nombre estructurado de una persona que contribuyó a la creación del producto)</NamesBeforeKey>
+			<KeyNames>(Nombre que normalmente son utilizados para abrir una entrada en una lista alfabética)</KeyNames>
+			<BiographicalNote>(Nota biográfica sobre un contribuyente al producto)</BiographicalNote>
+		</Contributor>
+		<Language><!-- Grupo de elementos de datos que representan un idioma y especifican su función -->
+			<LanguageRole>(Código que indica el rol de un idioma en el contexto del registro)</LanguageRole>
+			<LanguageCode>(Código ISO que indica un idioma)</LanguageCode>
+		</Language>
+		<Extent><!-- Un grupo de elementos de datos que describen una extensión perteneciente al producto.-->
+			<ExtentType>(Un código que identifica el tipo de extensión transportada en el compuesto)</ExtentType>
+			<ExtentValue>(El valor numérico de la extensión especificada en ExtentType)</ExtentValue>
+			<ExtentUnit>(Un código que indica la unidad utilizada para ExtentValue y el formato en el que se presenta el valor)</ExtentUnit>
+		</Extent>
+		<Subject> <!-- Grupo opcional y repetible de elementos de datos que especifican una clasificación de tema o encabezado de tema -->
+			<MainSubject>(Un elemento vacío que identifica una instancia del compuesto Subject)<MainSubject/>	
+			</MainSubject>
+			<SubjectSchemeIdentifier>(Código ONIX que identifica el esquema de categoría que se utiliza en una aparición del compuesto Subject)</SubjectSchemeIdentifier>
+			<SubjectSchemeVersion>(Número que identifica una versión o edición del esquema de asunto especificado en el elemento)</SubjectSchemeVersion>
+			<SubjectCode>(Código de categoría del esquema especificado en el elemento SubjectSchemeIdentifier)</SubjectCode>
+			<SubjectHeadingText>(Texto de un encabezado de asunto tomado del esquema especificado en el elemento SubjectSchemeIdentifier)</SubjectHeadingText>
+		</Subject>
+		<Audience><!-- Grupo opcional de elementos de datos que describen una audiencia a la que se dirige el producto -->
+			<AudienceCodeType>(Código que identifica el esquema del que se toma el código en AudienceCodeValue)</AudienceCodeType>
+			<AudienceCodeValue>(Un valor de código tomado del esquema especificado enAudienceCodeType)</AudienceCodeValue>
+		</Audience>
+		<AudienceRange> <!-- Grupo opcional de elementos de datos que describen una audiencia o un rango de lectores para el que está destinado un producto -->
+			<AudienceRangeQualifier>(Un código que especifica el atributo (edad, grado escolar, etc.) que se mide por el valor en el elemento AudienceRangeValue)</AudienceRangeQualifier>
+			<AudienceRangePrecision>(Un código ONIX que especifica la "precisión" del valor en el elemento AudienceRangeValue)</AudienceRangePrecision>
+			<AudienceRangeValue>(Un valor que indica una posición exacta dentro de un rango, o el extremo superior o inferior de un rango.)</AudienceRangeValue>
+		</AudienceRange>
+		<Measure> <!--Grupo opcional de elementos de datos que juntos identifican una medida y las unidades en las que se expresa -->
+			<MeasureType>(Código que indica la dimensión que se especifia por una ocurrencia del compuesto de medida)</MeasureType>
+			<Measurement>(El número que representa la dimensión especifica MeasureType en las unidades de medida especificadas en MeasureUnitCode)</Measurement>
+			<MeasureUnitCode>(Código que indica la unidad de medida en la que se dan las dimensiones)</MeasureUnitCode>
+		</Measure>
+		<ProductClassification> <!-- Un grupo opcional de elementos de datos que definen una clasificación de producto -->
+			<ProductClassificationType>(Código que identifica el esquema del que se toma el identificador en ProductClassificationCode)</ProductClassificationType>
+			<ProductClassificationCode>(Un código de clasificación del esquema especificado en ProductClassificationType)</ProductClassificationCode>
+		</ProductClassification>
+	</DescriptiveDetail>
+	<CollateralDetail> <!-- Bloque de datos que se refieren principalmente a información y/o recursos para apoyar la comercialización del producto -->
+		<TextContent> <!-- Un grupo opcional de elementos de datos que juntos llevan texto relacionado con el producto -->
+			<TextType>(Código que identifica el tipo de texto que se envía en el elemento Text)</TextType>
+			<ContentAudience>(Código que identifica a la audiencia a la que se está destinando el texto en el elemento Text)</ContentAudience>
+			<Text>(Texto que se especifico en el elemento TextType)<Text/>
+		</TextContent>
+		<SupportingResource> <!-- Un grupo opcional de elementos de datos que describen un recurso de apoyo.-->
+			<ResourceContentType>(Código que indica el tipo de contenido en un recurso de soporte)</ResourceContentType>
+			<ContentAudience>(Código que identifica a la audiencia a la que se está destinando el recurso de soporte)</ContentAudience>
+			<ResourceMode>(Código que indica el modo del recurso de soporte)</ResourceMode>
+			<ResourceVersion> <!-- Un grupo de elementos de datos que describen una única versión de un recurso de soporte -->
+				<ResourceForm>(Un código ONIX que indica la forma de una versión de un recurso de soporte)</ResourceForm>
+				<ResourceVersionFeature> <!-- Un grupo de elementos de datos que describen una característica de un recurso de soporte que es específica para una versión particular en la que se ofrece el recurso -->
+					<ResourceVersionFeatureType>(Código que especifia una característica descrita por una instancia del compuesto ResourceVersionFeature)</ResourceVersionFeatureType>
+					<FeatureValue>(Un valor controlado que describe una característica de versión de recurso.)</FeatureValue>
+				</ResourceVersionFeature>
+				<ResourceLink>(Una URL que proporciona un enlace a un recurso de soporte.)</ResourceLink>
+				<ContenDate> <!-- Un grupo opcional de elementos de datos que especifican una fecha asociada con el texto transportado en una aparición del compuesto <TextContent> -->
+					<ContentDateRole>(Código que indica la importancia de la fecha en relación con el contenido del texto.)</ContentDateRole>
+					<Date>año/mes/día</Date>
+				</ContenDate>
+				</ResourceVersion>
+			</SupportingResource>
+		</CollateralDetail>
+		<PublishingDetail> <!-- Bloque de detalles de publicación que contienen información sobre el editor (es), el estado de publicación "global" y los derechos asociados a un producto -->
+			<Imprint> <!-- Un grupo opcional de elementos de datos que identifican una impresión o marca bajo la cual se comercializa el producto. -->
+			<ImprintIdentifier> <!-- Un grupo de elementos de datos que juntos definen el identificador de un nombre de impresión. -->
+				<ImprintIDType>(Código que identifica el esquema del que se toma el valor en el elemento IDValue)</ImprintIDType>
+				<IDTypeName>(Un nombre que identifica un esquema de identificador propietario)</IDTypeName>
+				<IDValue>(Un valor de código tomado del esquema especificado en el elemento ImprintIDType)</IDValue>
+			</ImprintIdentifier>
+			<ImprintName>(El nombre de una impresión o marca bajo la cual se emite el producto, tal como aparece en el producto)</ImprintName>
+			</Imprint>
+			<Publisher>
+				<PublishingRole>(Código que identifica un papel desempeñado por una entidad en la publicación de un producto)</PublishingRole>
+				<PublisherIdentifier><!-- Un grupo opcional de elementos de datos que definen el identificador de un nombre de editor -->
+					<PublisherIDType>(Código que identifica el esquema del que toma el valor en el elemento IDValue)</PublisherIDType>
+					<IDValue>(Un valor de código tomado del esquema especificado en el elemento PublisherIDType)</IDValue>
+				</PublisherIdentifier>
+				<PublisherName>(El nombre de una entidad asociada con la publicación de un producto.)</PublisherName>
+				<Website> <!-- Grupo opcional que proporciona puntero a un sitio web que está relacionado con el editor identificado en una aparición del compuesto Publisher. -->
+					<WebsiteRole>(Código que identifica la función o el propósito del sitio web que está vinculado a través del elemento WebsiteLink.)</WebsiteRole>
+					<WebsiteLink>(URL del sitio web)</WebsiteLink>
+				</Website>
+			</Publisher>
+			<PublishingStatus>(Código que identifica el estado de un producto publicado)</PublishingStatus>
+			<CountryOfPublication>(Código que identifica el país donde se publica el producto.)</CountryOfPublication>
+			<PublishingDate> <!-- Un grupo de elementos de datos que especifican una fecha asociada con la publicación del producto -->
+				<PublishingDateRole>Un código que indica la importancia de la fecha</PublishingDateRole>
+				<DateFormat>(Un código que indica el formato en el que se da la fecha en Date)</DateFormat>
+				<Date>año/mes/dia</Date>
+			</PublishingDate>
+			<LatestReprintNumber>(El número de la reimpresión más reciente (o "número de impresión" actual) del producto.)</LatestReprintNumber>
+			<SalesRights> <!-- Un grupo opcional y repetible de elementos de datos que identifican los derechos territoriales de venta que un editor elige ejercer en un producto.-->
+				<SalesRightsType>(Código que identifica el tipo de derecho de venta o exclusión que se aplica en los territorios asociados con él.)</SalesRightsType>
+				<Territory> <!-- Un grupo de elementos de datos que identifican un territorio en el que son aplicables los derechos especificados en SalesRightsType. -->
+					<CountriesIncluded>(Uno o más códigos estándar ISO que identifican países incluidos en el territorio.)</CountriesIncluded>
+				</Territory>
+			</SalesRights>
+		</PublishingDetail>
+		<RelatedMaterial><!-- Bloque que cubre información proporcionando enlaces a trabajos relacionados y productos relacionados. El bloque en su conjunto es opcional y no se repite.-->
+		<RelatedProduct> <!-- Grupo opcional de elmentos de datos que describen un producto que tiene una relación específica con el producto descrito -->
+			<ProductRelationCode>(Código que identifica la naturaleza de la relación entre dos productos)</ProductRelationCode>
+			<ProductIdentifier> <!-- Un grupo de elementos de datos que juntos definen un identificador de un producto de acuerdo con un esquema específico. -->
+				<ProductIDType></ProductIDType>
+				<IDValue></IDValue>
+			</ProductIdentifier>
+		</RelatedProduct>
+		<ProductSupply> <!-- Bloque que contiene información especificando un mercado, el estado de publicación del producto en ese mercado y los arreglos de suministro para el producto en ese mercado. -->
+			<Market> <!-- Un grupo de elementos de datos que juntos dan detalles de un territorio geográfico y las restricciones de ventas no geográficas que se aplican dentro de él. -->
+				<Territory>
+					<CountriesIncluded></CountriesIncluded>
+				</Territory>
+			</Market>
+			<MarketPublishingDetail> <!-- Un grupo de elementos de datos que dan detalles del estado de publicación de un producto dentro de un mercado específico.   -->
+			<MarketPublishingStatus>(Código que identifica el estado de un producto publicado en un mercado específico)</MarketPublishingStatus>
+			<MarketDate> <!-- Un grupo de elementos de datos que juntos especifican una fecha asociada con el estado de publicación del producto en un mercado específico -->
+				<MarketDateRole>(Código que indica la importancia de la fecha)</MarketDateRole>
+				<DateFormat></DateFormat>
+				<Date>año/mes/dia</Date>
+			</MarketDate>
+			</MarketPublishingDetail>
+			<SupplyDetail> <!-- Un grupo de elementos de datos que dan detalles de una fuente de suministro, y el precio y la disponibilidad de esa fuente. -->
+				<Supplier> <!-- Un grupo de elementos de datos que juntos identifican a un proveedor específico. -->
+					<SupplierRole>(Códigoque identifica la función del proveedor en relación con el producto)</SupplierRole>
+					<SupplierName>(El nombre de una fuente de suministro desde la cual un cliente comercial puede solicitar el producto.)</SupplierName>
+				</Supplier>
+				<SupplyDate><!-- Un grupo opcional de elementos de datos que especifican una fecha asociada con el estado del suministro del producto --> 
+				<SupplyDateRole>(Código que indica la importancia de la fecha)</SupplyDateRole>
+				<DateFormat></DateFormat>
+				<Date>año/mes/dias</Date>
+				</SupplyDate>
+				<SalesRestriction> <!-- Un grupo de elementos de datos que identifican una restricción de ventas no territorial que un editor aplica a un producto dentro de un territorio particular. -->
+					<SalesRestrictionType>(Código que identifica una restricción de ventas no territorial.)</SalesRestrictionType>
+					<SalesRestrictionNote>(Un campo de texto libre que describe una restricción "no especificada" o que brinda más explicaciones sobre un tipo de restricción codificada)</SalesRestrictionNote>
+				</SalesRestriction>
+				<ProductAvailability>(Código que indica la disponibilidad de un producto de un proveedor.)</ProductAvailability>
+				<Price> <!-- Un grupo opcional de elementos de datos que especifican un precio unitario, repetible para especificar precios múltiples -->
+					<PriceType>(Código que indica el tipo de precio en el campo PriceAmount> dentro del compuesto Price.)</PriceType>
+					<PriceQualifier>(Código que especifica además el tipo de precio)</PriceQualifier>
+					<PricePer>(Código que indica la unidad de producto que es la base del precio transportado en una aparición del compuesto Price. )</PricePer>
+					<PriceAmount>(Cantidad de un precio) </PriceAmount>
+					<Tax> <!-- Un grupo opcional repetible de elementos de datos que especifican los impuestos incluidos dentro de una cantidad de precio -->
+					<TaxType>(Código que identifica un tipo de impuesto)</TaxType>
+					<TaxRatePercent>(Una tasa de impuestos expresada numéricamente como un porcentaje)</TaxRatePercent>
+					<TaxableAmount>(La cantidad del precio unitario del producto, excluyendo impuestos, que está sujeto a impuestos a la tasa especificada en una aparición del compuesto Tax.)</TaxableAmount>
+					</Tax> 
+					<CurrencyCode>(Un código estándar ISO que identifica la moneda en la que se indican todos los importes monetarios en una aparición del compuesto Price)</CurrencyCode>
+				</Price>
+			</SupplyDetail>
+		</ProductSupply>
+</Product>
+</ONIXMessage>

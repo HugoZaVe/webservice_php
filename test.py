@@ -3,7 +3,7 @@ import json
 import base64
 
 
-file = open('files/9786070765766.onix', 'r')
+file = open('9786073187336.xml', 'r')
 contenido = file.read()
 file.close()
 #print(type(contenido))
@@ -39,7 +39,7 @@ dataInfo = {
 
     "usuario": 'Hugo Vega',
     "passwd": 'hola123',
-    "nombre_archivo": 'TestContenidoFINAL.onix',
+    "nombre_archivo": '9786073187336ENCODE.xml',
     "archivo": contenido
 }
 

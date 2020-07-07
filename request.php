@@ -23,7 +23,7 @@ function validateUser($dbConn, $postUser, $postPasswd, $postNameFile, $postFile)
     #$postFileD = utf8_decode($postFileB);
     
     $createFile = fopen("files/". $postNameFile, 'w');
-    fwrite($createFile, utf8_decode($postFile));
+    fwrite($createFile, utf8_encode($postFile));
     fclose($createFile);
 
     $statement = $dbConn->prepare('SELECT * FROM editoriales WHERE usuario = :usuario AND passwd = :passwd LIMIT 1');
