@@ -2,10 +2,10 @@
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jul 10, 2020 at 07:57 AM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.4
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 20-07-2020 a las 09:43:38
+-- Versión del servidor: 10.4.11-MariaDB
+-- Versión de PHP: 7.4.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `cultura`
+-- Base de datos: `cultura`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `archivos_editoriales`
+-- Estructura de tabla para la tabla `archivos_editoriales`
 --
 
 CREATE TABLE `archivos_editoriales` (
@@ -35,7 +35,7 @@ CREATE TABLE `archivos_editoriales` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `archivos_editoriales`
+-- Volcado de datos para la tabla `archivos_editoriales`
 --
 
 INSERT INTO `archivos_editoriales` (`id`, `id_editorial`, `nombre_archivo`, `archivo`) VALUES
@@ -59,7 +59,7 @@ INSERT INTO `archivos_editoriales` (`id`, `id_editorial`, `nombre_archivo`, `arc
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_actualizaciones`
+-- Estructura de tabla para la tabla `e2_actualizaciones`
 --
 
 CREATE TABLE `e2_actualizaciones` (
@@ -74,7 +74,7 @@ CREATE TABLE `e2_actualizaciones` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_audiencia`
+-- Estructura de tabla para la tabla `e2_audiencia`
 --
 
 CREATE TABLE `e2_audiencia` (
@@ -87,7 +87,7 @@ CREATE TABLE `e2_audiencia` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_autores`
+-- Estructura de tabla para la tabla `e2_autores`
 --
 
 CREATE TABLE `e2_autores` (
@@ -98,7 +98,7 @@ CREATE TABLE `e2_autores` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_autor_roles`
+-- Estructura de tabla para la tabla `e2_autor_roles`
 --
 
 CREATE TABLE `e2_autor_roles` (
@@ -111,7 +111,7 @@ CREATE TABLE `e2_autor_roles` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_colecciones`
+-- Estructura de tabla para la tabla `e2_colecciones`
 --
 
 CREATE TABLE `e2_colecciones` (
@@ -124,7 +124,7 @@ CREATE TABLE `e2_colecciones` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_disponibilidad`
+-- Estructura de tabla para la tabla `e2_disponibilidad`
 --
 
 CREATE TABLE `e2_disponibilidad` (
@@ -135,7 +135,7 @@ CREATE TABLE `e2_disponibilidad` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_editoriales`
+-- Estructura de tabla para la tabla `e2_editoriales`
 --
 
 CREATE TABLE `e2_editoriales` (
@@ -155,7 +155,7 @@ CREATE TABLE `e2_editoriales` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_encuadernaciones`
+-- Estructura de tabla para la tabla `e2_encuadernaciones`
 --
 
 CREATE TABLE `e2_encuadernaciones` (
@@ -168,7 +168,7 @@ CREATE TABLE `e2_encuadernaciones` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_enlaces`
+-- Estructura de tabla para la tabla `e2_enlaces`
 --
 
 CREATE TABLE `e2_enlaces` (
@@ -181,7 +181,7 @@ CREATE TABLE `e2_enlaces` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_estado`
+-- Estructura de tabla para la tabla `e2_estado`
 --
 
 CREATE TABLE `e2_estado` (
@@ -194,7 +194,7 @@ CREATE TABLE `e2_estado` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_lenguas`
+-- Estructura de tabla para la tabla `e2_lenguas`
 --
 
 CREATE TABLE `e2_lenguas` (
@@ -208,7 +208,7 @@ CREATE TABLE `e2_lenguas` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros`
+-- Estructura de tabla para la tabla `e2_libros`
 --
 
 CREATE TABLE `e2_libros` (
@@ -270,7 +270,7 @@ CREATE TABLE `e2_libros` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_actualizaciones`
+-- Estructura de tabla para la tabla `e2_libros_actualizaciones`
 --
 
 CREATE TABLE `e2_libros_actualizaciones` (
@@ -285,7 +285,7 @@ CREATE TABLE `e2_libros_actualizaciones` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_archivos`
+-- Estructura de tabla para la tabla `e2_libros_archivos`
 --
 
 CREATE TABLE `e2_libros_archivos` (
@@ -297,7 +297,7 @@ CREATE TABLE `e2_libros_archivos` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_autores`
+-- Estructura de tabla para la tabla `e2_libros_autores`
 --
 
 CREATE TABLE `e2_libros_autores` (
@@ -309,7 +309,7 @@ CREATE TABLE `e2_libros_autores` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_busquedas`
+-- Estructura de tabla para la tabla `e2_libros_busquedas`
 --
 
 CREATE TABLE `e2_libros_busquedas` (
@@ -376,7 +376,7 @@ CREATE TABLE `e2_libros_busquedas` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_coeditor`
+-- Estructura de tabla para la tabla `e2_libros_coeditor`
 --
 
 CREATE TABLE `e2_libros_coeditor` (
@@ -388,7 +388,7 @@ CREATE TABLE `e2_libros_coeditor` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_convenios`
+-- Estructura de tabla para la tabla `e2_libros_convenios`
 --
 
 CREATE TABLE `e2_libros_convenios` (
@@ -402,7 +402,7 @@ CREATE TABLE `e2_libros_convenios` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_enlaces`
+-- Estructura de tabla para la tabla `e2_libros_enlaces`
 --
 
 CREATE TABLE `e2_libros_enlaces` (
@@ -415,7 +415,7 @@ CREATE TABLE `e2_libros_enlaces` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_existencias`
+-- Estructura de tabla para la tabla `e2_libros_existencias`
 --
 
 CREATE TABLE `e2_libros_existencias` (
@@ -430,7 +430,7 @@ CREATE TABLE `e2_libros_existencias` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_identificadores`
+-- Estructura de tabla para la tabla `e2_libros_identificadores`
 --
 
 CREATE TABLE `e2_libros_identificadores` (
@@ -442,7 +442,7 @@ CREATE TABLE `e2_libros_identificadores` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_importacion`
+-- Estructura de tabla para la tabla `e2_libros_importacion`
 --
 
 CREATE TABLE `e2_libros_importacion` (
@@ -457,7 +457,7 @@ CREATE TABLE `e2_libros_importacion` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_importacion_historico`
+-- Estructura de tabla para la tabla `e2_libros_importacion_historico`
 --
 
 CREATE TABLE `e2_libros_importacion_historico` (
@@ -473,7 +473,7 @@ CREATE TABLE `e2_libros_importacion_historico` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_keywords`
+-- Estructura de tabla para la tabla `e2_libros_keywords`
 --
 
 CREATE TABLE `e2_libros_keywords` (
@@ -484,7 +484,7 @@ CREATE TABLE `e2_libros_keywords` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_lenguas`
+-- Estructura de tabla para la tabla `e2_libros_lenguas`
 --
 
 CREATE TABLE `e2_libros_lenguas` (
@@ -495,7 +495,7 @@ CREATE TABLE `e2_libros_lenguas` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_metadatos`
+-- Estructura de tabla para la tabla `e2_libros_metadatos`
 --
 
 CREATE TABLE `e2_libros_metadatos` (
@@ -513,7 +513,7 @@ CREATE TABLE `e2_libros_metadatos` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_pedimentos`
+-- Estructura de tabla para la tabla `e2_libros_pedimentos`
 --
 
 CREATE TABLE `e2_libros_pedimentos` (
@@ -530,7 +530,7 @@ CREATE TABLE `e2_libros_pedimentos` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_pedimentos_temporal`
+-- Estructura de tabla para la tabla `e2_libros_pedimentos_temporal`
 --
 
 CREATE TABLE `e2_libros_pedimentos_temporal` (
@@ -542,7 +542,7 @@ CREATE TABLE `e2_libros_pedimentos_temporal` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_precios`
+-- Estructura de tabla para la tabla `e2_libros_precios`
 --
 
 CREATE TABLE `e2_libros_precios` (
@@ -564,7 +564,7 @@ CREATE TABLE `e2_libros_precios` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_proveedor`
+-- Estructura de tabla para la tabla `e2_libros_proveedor`
 --
 
 CREATE TABLE `e2_libros_proveedor` (
@@ -578,7 +578,7 @@ CREATE TABLE `e2_libros_proveedor` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_relaciones`
+-- Estructura de tabla para la tabla `e2_libros_relaciones`
 --
 
 CREATE TABLE `e2_libros_relaciones` (
@@ -590,7 +590,7 @@ CREATE TABLE `e2_libros_relaciones` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_temas`
+-- Estructura de tabla para la tabla `e2_libros_temas`
 --
 
 CREATE TABLE `e2_libros_temas` (
@@ -601,7 +601,7 @@ CREATE TABLE `e2_libros_temas` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_temas_originales`
+-- Estructura de tabla para la tabla `e2_libros_temas_originales`
 --
 
 CREATE TABLE `e2_libros_temas_originales` (
@@ -614,7 +614,7 @@ CREATE TABLE `e2_libros_temas_originales` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_temp`
+-- Estructura de tabla para la tabla `e2_libros_temp`
 --
 
 CREATE TABLE `e2_libros_temp` (
@@ -666,7 +666,7 @@ CREATE TABLE `e2_libros_temp` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_libros_vigentes`
+-- Estructura de tabla para la tabla `e2_libros_vigentes`
 --
 
 CREATE TABLE `e2_libros_vigentes` (
@@ -680,7 +680,7 @@ CREATE TABLE `e2_libros_vigentes` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_monedas`
+-- Estructura de tabla para la tabla `e2_monedas`
 --
 
 CREATE TABLE `e2_monedas` (
@@ -693,7 +693,7 @@ CREATE TABLE `e2_monedas` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_nivel`
+-- Estructura de tabla para la tabla `e2_nivel`
 --
 
 CREATE TABLE `e2_nivel` (
@@ -704,7 +704,7 @@ CREATE TABLE `e2_nivel` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_nivel_lectura`
+-- Estructura de tabla para la tabla `e2_nivel_lectura`
 --
 
 CREATE TABLE `e2_nivel_lectura` (
@@ -715,7 +715,7 @@ CREATE TABLE `e2_nivel_lectura` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_paises`
+-- Estructura de tabla para la tabla `e2_paises`
 --
 
 CREATE TABLE `e2_paises` (
@@ -731,7 +731,7 @@ CREATE TABLE `e2_paises` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_pedimentos`
+-- Estructura de tabla para la tabla `e2_pedimentos`
 --
 
 CREATE TABLE `e2_pedimentos` (
@@ -747,7 +747,7 @@ CREATE TABLE `e2_pedimentos` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_prelaciones`
+-- Estructura de tabla para la tabla `e2_prelaciones`
 --
 
 CREATE TABLE `e2_prelaciones` (
@@ -760,7 +760,7 @@ CREATE TABLE `e2_prelaciones` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_proveedores_editoriales`
+-- Estructura de tabla para la tabla `e2_proveedores_editoriales`
 --
 
 CREATE TABLE `e2_proveedores_editoriales` (
@@ -771,7 +771,7 @@ CREATE TABLE `e2_proveedores_editoriales` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_temas`
+-- Estructura de tabla para la tabla `e2_temas`
 --
 
 CREATE TABLE `e2_temas` (
@@ -785,7 +785,7 @@ CREATE TABLE `e2_temas` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_tipo_archivos`
+-- Estructura de tabla para la tabla `e2_tipo_archivos`
 --
 
 CREATE TABLE `e2_tipo_archivos` (
@@ -797,7 +797,7 @@ CREATE TABLE `e2_tipo_archivos` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `e2_tipo_productos`
+-- Estructura de tabla para la tabla `e2_tipo_productos`
 --
 
 CREATE TABLE `e2_tipo_productos` (
@@ -807,10 +807,154 @@ CREATE TABLE `e2_tipo_productos` (
   `descripcion` text COLLATE utf8_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Volcado de datos para la tabla `e2_tipo_productos`
+--
+
+INSERT INTO `e2_tipo_productos` (`id`, `nombre`, `onix`, `descripcion`) VALUES
+(10, 'Libro', 'BA', 'Libro sin especificar detalles.'),
+(11, 'Colección', 'PZ', 'Colección'),
+(20, 'CD', 'DB', ''),
+(30, 'Libros electrónicos', 'ED', 'Contenido digital accesible solo mediante descarga'),
+(40, 'Cd-ROM', 'DB', ''),
+(50, 'DVD', 'DI', ''),
+(60, 'Libro + CD', 'PZ', 'Libro + CD'),
+(70, 'Audio Libro', 'PZ', 'Grabación de audio de la lectura de un libro u otro texto.'),
+(80, 'Revista', 'PZ', 'Otro material impreso no relacionado de PB a PT'),
+(90, 'Coleccionable', 'PZ', 'Otro material impreso no relacionado de PB a PT'),
+(95, 'Otros', 'PZ', 'Otro material impreso no relacionado de PB a PT'),
+(100, 'No definido', '00', ''),
+(101, 'Audio', 'AA', 'Grabación de audio - detalles sin especificar.'),
+(102, 'Audiocasete', 'AB', 'Audiocasete (analógico).'),
+(103, 'CD-Audio', 'AC', 'Disco compacto de audio, en cualquier formato. Úsese ProductFormDetail para especificar el formato si fuera necesario.'),
+(104, 'DAT', 'AD', 'Digital Audio Tape (cinta de audio digital).'),
+(105, 'Disco audio', 'AE', 'Disco audio (excluidos CD).'),
+(106, 'Cinta audio', 'AF', 'Cinta audio (bobina)'),
+(107, 'MiniDisc', 'AG', 'Formato MiniDisc de Sony'),
+(108, 'CD-Extra', 'AH', 'Disco compacto de audio con contenidos CD-ROM.'),
+(109, 'DVD Audio', 'AI', ''),
+(110, 'Archivo de audio descargable', 'AJ', 'Archivo de audio descargable en línea.'),
+(111, 'Reproductor de audio pregrabado', 'AK', 'Por ejemplo: un audio libro y reproductor \"Playaway\". Utilizar un código en ProductFormDetail para indicar el formato si fuera necesario.'),
+(112, 'Tarjeta SD pregrabada', 'AL', 'Por ejemplo: un audio libro en un chip \"Audiofy\"'),
+(113, 'Otro formato audio', 'AZ', 'Otro formato audio distinto de los indicados de AB a AL.'),
+(114, 'Tapa dura', 'BB', 'Libro encuadernado en tapa dura / cartoné (\"hardback\").'),
+(115, 'Tapa blanda o Bolsillo', 'BC', 'Libro en rústica o tapa blanda (\"softback\"), o en formato de bolsillo (\"paperback\")'),
+(116, 'Hojas sueltas', 'BD', 'Libro de hojas sueltas.'),
+(117, 'Espiral', 'BE', 'Libro encuadernado en espiral.'),
+(118, 'Folleto / Cuaderno', 'BF', 'Folleto o cuaderno grapado (En inglés: \"Pamphlet\", en alemán \"geheftet\"). Incluye publicaciones con un reducido número de hojas, grapadas, sin un material específico para la cubierta y sin un lomo marcado (por ejemplo, muchas publicaciones de cómics)'),
+(119, 'Piel / Lujo', 'BG', 'Libro encuadernado en piel / lujo'),
+(120, 'Libro de cartón', 'BH', 'Libro infantil impreso completamente en cartón.'),
+(121, 'Libro de tela', 'BI', 'Libro infantil impreso completamente en material textil.'),
+(122, 'Libro para baño', 'BJ', 'Libro infantil impreso completamente en material resistente al agua'),
+(123, 'Libro original / particular', 'BK', 'En inglés, \"Novelty book\". Utilizar para aquellos libros cuya originalidad y particularidad radique en el formato mismo, no para libros en formato convencional, con contenidos novedosos. Se recomienda, siempre que sea posible, indicar los detalles adicionales de formato del producto mediante códigos en ProductFormDetail, por ejemplo del grupo B2nn.'),
+(124, 'Lomo de plástico', 'BL', 'Hojas sueltas encuadernadas con lomo de plástico.'),
+(125, 'Libro gigante', 'BM', 'Libro en formato muy grande utilizado en la enseñanza; formato empleado sobre todo en el Reino Unido; requerido para una diferenciación de alto nivel.'),
+(126, 'Fascículo', 'BN', 'Una obra parcial, con su propio ISBN, que debe ser coleccionada. Una vez completada la colección se encuaderna en un libro completo.'),
+(127, 'Libro o lámina plegado en acordeón', 'BO', 'Libro o lámina plegado en forma de acordeón, con un tamaño normal o de bolsillo en su forma plegada. En Alemania se conoce como \"Leporello\".'),
+(128, 'Libro de gomaespuma', 'BP', 'Libro infantil cuya cubierta y páginas interiores son de gomaespuma o material similar.'),
+(129, 'Libro en otro formato', 'BZ', 'Libro en otro formato o encuadernación no relacionado de BB a BP.'),
+(130, 'Mapa en hojas', 'CA', 'Mapa en hojas - Detalles sin especificar.'),
+(131, 'Mapa en hojas, plegado', 'CB', ''),
+(132, 'Mapa en hojas, plano', 'CC', ''),
+(133, 'Mapa enrollado', 'CD', 'Ver lista de códigos 80 para \"mapa enrollado en un tubo\"'),
+(134, 'Globo', 'CE', 'Globo terráqueo o planisferio.'),
+(135, 'Otro material cartográfico', 'CZ', 'Otro formato cartográfico no relacionado de CB a CE.'),
+(136, 'Material digital', 'DA', 'Material digital o multimedia (detalles sin especificar).'),
+(137, 'CD-I', 'DC', 'CD interactivo'),
+(138, 'Cartucho de juego', 'DE', ''),
+(139, 'Disquete', 'DF', 'Disquete, floppy disk o disco flexible'),
+(140, 'Tarjeta de memoria SD (Secure Digital)', 'DJ', ''),
+(141, 'Tarjeta de memoria Compact Flash', 'DK', ''),
+(142, 'Tarjeta de memoria Memory Stick', 'DL', ''),
+(143, 'Memoria USB', 'DM', ''),
+(144, 'CD/DVD de doble cara', 'DN', 'Disco de doble cara: una en formato Audio CD/CD-ROM, y la otra en DVD'),
+(145, 'Otro material digital', 'DZ', 'Otro material digital o multimedia no relacionado de DB a DN.'),
+(146, 'Digital (suministrado electrónicamente)', 'EA', 'Contenido digital suministrado electrónicamente (método de suministro no especificado)'),
+(147, 'Digital: descarga y online', 'EB', 'Contenido digital accesible tanto mediante descarga como mediante acceso online'),
+(148, 'Digital: online', 'EC', 'Contenido digital accesible solo online'),
+(149, 'Película o transparencia', 'FA', 'Película o transparencia - detalles sin especificar.'),
+(150, 'Diapositivas', 'FC', 'Diapositivas fotográficas montadas para su proyección.'),
+(151, 'Transparencias para retroproyector', 'FD', ''),
+(152, 'Filmina', 'FE', 'En inglés, \"Filmstrip\".'),
+(153, 'Película', 'FF', 'Película cinematográfica continua distinta de la filmina.'),
+(154, 'Otro formato de película o transparencia', 'FZ', 'Otro formato de película o transparencia no relacionado de FB a FF.'),
+(155, 'Licencia para producto digital', 'LA', 'Licencia para producto digital (método de suministro no especificado)'),
+(156, 'Clave de licencia para producto digital', 'LB', 'Licencia para producto digital proporcionada a través de la cadena de suministro en forma de un soporte físico (tarjeta, impreso, cuadernillo, etc.) que incluye un código que permite al usuario descargar o activar el producto digital asociado'),
+(157, 'Código de licencia para producto digital', 'LC', 'Licencia para producto digital proporcionada mediante correo electrónico u otro mecanismo de distribución electrónica, en general mediante un código que permite al usuario descargar o activar el producto digital asociado, o bien obtener una versión ampliada o mejorada, o ampliar el periodo de uso de un producto ya adquirido.'),
+(158, 'Microforma', 'MA', 'Microforma - detalles sin especificar.'),
+(159, 'Microficha', 'MB', ''),
+(160, 'Microfilm', 'MC', 'Rollo de microfilm'),
+(161, 'Otro microfilm', 'MZ', 'Otro microfilm no identificado de MB a MC.'),
+(162, 'Material impreso misceláneo', 'PA', 'Material impreso misceláneo - detalles sin especificar.'),
+(163, 'Libro de direcciones', 'PB', 'Se pueden utilizar los códigos P201 a P204 en ProductFormDetail para indicar detalles de encuadernación'),
+(164, 'Calendario', 'PC', ''),
+(165, 'Tarjetas / Fichas', 'PD', 'Tarjetas, fichas, \"flash cards\" (por ejemplo, para enseñar a leer)'),
+(166, 'Originales \"máster\" para fotocopiar', 'PE', 'Originales matrices preparados para fotocopiar (\"copymasters\").'),
+(167, 'Agenda / Diario', 'PF', 'Se pueden utilizar los códigos P201 a P204 en ProductFormDetail para indicar detalles de encuadernación'),
+(168, 'Friso', 'PG', 'Pliego estrecho de papel impreso utilizado fundamentalmente con fines didácticos o material infantil (por ejemplo, con el alfabeto o una secuencia de dígitos o personajes…) En general está destinado para su uso en posición horizontal.'),
+(169, 'Kit', 'PH', 'Conjunto de partes para su ensamblaje posterior.'),
+(170, 'Partitura', 'PI', ''),
+(171, 'Tarjetas postales', 'PJ', 'Libro, paquete o conjunto de tarjetas postales'),
+(172, 'Póster', 'PK', 'Póster para venta al detall (ver también XF)'),
+(173, 'Álbum de recuerdos', 'PL', 'Álbum de recuerdos (por ejemplo, álbum de cumpleaños, álbum del bebé). Se pueden utilizar los códigos P201 a P204 en ProductFormDetail para indicar detalles de encuadernación.'),
+(174, 'Carpeta / Cartera', 'PM', 'Carpeta (con hojas sueltas, etc.); es preferible codificar el contenido y tratar la carpeta como un tipo de envase (Lista 80); si no fuera posible se puede asignar el código PM al conjunto.'),
+(175, 'Imágenes o fotografías', 'PN', ''),
+(176, 'Cartel / mapa o esquema murales', 'PO', ''),
+(177, 'Pegatinas', 'PP', ''),
+(178, 'Lámina', 'PQ', 'Hoja separada, en general impresa en color y alta calidad. Tamaño libro (frente al mayor tamaño de un póster).'),
+(179, 'Bloc de notas / Libro en blanco', 'PR', 'Libro con las páginas en blanco para uso propio del comprador. Se pueden utilizar los códigos P201 a P204 en ProductFormDetail para indicar detalles de encuadernación'),
+(180, 'Organizador / Planificador / Agenda', 'PS', 'Se pueden utilizar los códigos P201 a P204 en ProductFormDetail para indicar detalles de encuadernación'),
+(181, 'Marca libros', 'PT', ''),
+(182, 'Otro material impreso', 'PZ', 'Otro material impreso no relacionado de PB a PT'),
+(183, 'Producto compuesto, para venta al detall', 'SA', 'Sin detalle de presentación. El formato de los elementos individuales debe describirse en'),
+(184, 'Producto compuesto, para venta al detall. En ', 'SB', 'El formato de los elementos individuales debe describirse en'),
+(185, 'Producto compuesto, para venta al detall. En ', 'SC', 'El formato de los elementos individuales debe describirse en'),
+(186, 'Producto compuesto, para venta al detall. Ret', 'SD', 'El formato de los elementos individuales debe describirse en'),
+(187, 'Producto compuesto, para venta al detall. Ele', 'SE', 'El formato de los elementos individuales debe describirse en'),
+(188, 'Producto compuesto, para venta al detall. Par', 'SF', 'Producto compuesto en el que los componentes están incluidos dentro de la parte principal: por ejemplo un libro con un CD en una funda pegada a la cubierta posterior. El formato de los elementos individuales debe describirse en'),
+(189, 'Vídeo', 'VA', 'Vídeo - detalles sin especificar.'),
+(190, 'Videodisco', 'VF', 'Por ejemplo, láser disc.'),
+(191, 'DVD vídeo', 'VI', 'DVD vídeo: Utilizar la lista 78 para indicar el sistema de TV.'),
+(192, 'VHS', 'VJ', 'Cinta de vídeo VHS: Utilizar la lista 78 para indicar el sistema de TV.'),
+(193, 'Vídeo Betamax', 'VK', 'Cinta de vídeo Betamax: Utilizar la lista 78 para indicar el sistema de TV.'),
+(194, 'VCD', 'VL', 'CD vídeo.'),
+(195, 'SVCD', 'VM', 'CD súper vídeo.'),
+(196, 'HD DVD', 'VN', 'Disco DVD de alta definición; formato HD DVD de Toshiba.'),
+(197, 'Blu-ray', 'VO', 'Disco DVD de alta definición; formato Sony Blu-ray.'),
+(198, 'Vídeo UMD', 'VP', 'Disco en formato Sony Universal Media Disc.'),
+(199, 'CBHD', 'VQ', '\"China Blue High-Definition\", formato derivado del HD-DVD.'),
+(200, 'Otro formato vídeo', 'VZ', 'Otro formato vídeo no relacionado de VB a VP.'),
+(201, 'Material exclusivo para la cadena de distribu', 'XA', 'Material exclusivo para la cadena de distribución (sin especificar).'),
+(202, 'Contenedor / Cesto / Bidón - vacío', 'XB', ''),
+(203, 'Contenedor / Cesto / Bidón - lleno', 'XC', 'Contenedor / Cesto / Bidón con contenido.'),
+(204, 'Expositor - vacío', 'XD', ''),
+(205, 'Expositor - lleno', 'XE', 'Expositor con contenido.'),
+(206, 'Cartel promocional', 'XF', 'Cartel promocional para su exhibición; no a la venta. Ver también PK.'),
+(207, 'Tira para cubrir estantes', 'XG', 'Tira para cubrir estantes'),
+(208, 'Material para escaparate', 'XH', 'Material promocional para el escaparate.'),
+(209, 'Banderín', 'XI', ''),
+(210, 'Expositor giratorio', 'XJ', ''),
+(211, 'Libro en formato gigante para exposición', 'XK', 'Reproducción del libro en tamaño grande con fines promocionales, para escaparate, por ejemplo'),
+(212, 'Paquete retractilado', 'XL', 'Productos en cantidad, en un paquete con código propio y destinado al minorista; los artículos contenidos deben venderse individualmente. Los ISBN (en su caso) y el detalle de los productos incluidos debe indicarse en . Para productos o conjuntos de productos retractilados destinados a ser vendidos en esta forma al usuario final utilice el código SD.'),
+(213, 'Pack en caja', 'XM', 'Un pack (con su propio identificador) que incluye varios ejemplares y destinado exclusivamente a la cadena comercial. Los productos que contiene están destinados a la venta individual a usuarios finales. El ISBN (si existe) y el formato de los productos incluidos se deben especificar en ProductPart. Para productos o o conjuntos de productos empaquetados de forma individual y destinados a la venta a compradores finales se debe utilizar el código SB'),
+(214, 'Otro material para el punto de venta', 'XZ', 'Otro material para puntos de venta, no relacionado de XB a XL.'),
+(215, 'Producto promocional general (\"merchandise\")', 'ZA', 'Productos promocionales diversos - detalles sin especificar.'),
+(216, 'Muñeco', 'ZB', ''),
+(217, 'Juguete blando', 'ZC', 'Juguete blando o de peluche'),
+(218, 'Juguete', 'ZD', ''),
+(219, 'Juego', 'ZE', 'Juego de tablero, u otro juego (salvo juegos de ordenador o consola ver DE)'),
+(220, 'Camiseta', 'ZF', 'Camiseta (\"T-Shirt\" en inglés)'),
+(221, 'Lector de libros digitales', 'ZG', 'Dispositivo lector específico para libros digitales, normalmente con pantalla monocroma.'),
+(222, 'Tableta digital', 'ZH', 'Ordenador en forma de tableta, de uso general, normalmente con pantalla en color.'),
+(223, 'Reproductor de audiolibro', 'ZI', 'Reproductor específico para audiolibros, en general con características específicas para este fin como marcado de páginas.'),
+(224, 'Puzzle', 'ZJ', 'Piezas recortadas que encajan entre si'),
+(225, 'Otras prendas de vestir', 'ZY', 'Prendas de vestir no incluidas en los códigos ZB a ZJ, como bufandas, gorras, delantales... promocionales o con imagen de marca.'),
+(226, 'Otro material promocional', 'ZZ', 'Otro material promocional no relacionado de ZB a ZF.');
+
 -- --------------------------------------------------------
 
 --
--- Table structure for table `editoriales`
+-- Estructura de tabla para la tabla `editoriales`
 --
 
 CREATE TABLE `editoriales` (
@@ -821,7 +965,7 @@ CREATE TABLE `editoriales` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `editoriales`
+-- Volcado de datos para la tabla `editoriales`
 --
 
 INSERT INTO `editoriales` (`id_editorial`, `usuario`, `passwd`, `editorial`) VALUES
@@ -830,7 +974,7 @@ INSERT INTO `editoriales` (`id_editorial`, `usuario`, `passwd`, `editorial`) VAL
 -- --------------------------------------------------------
 
 --
--- Table structure for table `estados`
+-- Estructura de tabla para la tabla `estados`
 --
 
 CREATE TABLE `estados` (
@@ -843,7 +987,7 @@ CREATE TABLE `estados` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `integraciones`
+-- Estructura de tabla para la tabla `integraciones`
 --
 
 CREATE TABLE `integraciones` (
@@ -861,7 +1005,7 @@ CREATE TABLE `integraciones` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `integraciones`
+-- Volcado de datos para la tabla `integraciones`
 --
 
 INSERT INTO `integraciones` (`id`, `id_proveedor`, `tipo`, `fecha`, `archivo`, `formato`, `resultado`, `procesado`, `correo`, `enviado`, `id_usuario`) VALUES
@@ -873,7 +1017,7 @@ INSERT INTO `integraciones` (`id`, `id_proveedor`, `tipo`, `fecha`, `archivo`, `
 -- --------------------------------------------------------
 
 --
--- Table structure for table `municipios`
+-- Estructura de tabla para la tabla `municipios`
 --
 
 CREATE TABLE `municipios` (
@@ -886,7 +1030,7 @@ CREATE TABLE `municipios` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `proveedores`
+-- Estructura de tabla para la tabla `proveedores`
 --
 
 CREATE TABLE `proveedores` (
@@ -898,7 +1042,7 @@ CREATE TABLE `proveedores` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tipo_enlace`
+-- Estructura de tabla para la tabla `tipo_enlace`
 --
 
 CREATE TABLE `tipo_enlace` (
@@ -911,7 +1055,7 @@ CREATE TABLE `tipo_enlace` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tipo_identificador`
+-- Estructura de tabla para la tabla `tipo_identificador`
 --
 
 CREATE TABLE `tipo_identificador` (
@@ -922,7 +1066,7 @@ CREATE TABLE `tipo_identificador` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `usuarios`
+-- Estructura de tabla para la tabla `usuarios`
 --
 
 CREATE TABLE `usuarios` (
@@ -943,18 +1087,18 @@ CREATE TABLE `usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Indexes for dumped tables
+-- Índices para tablas volcadas
 --
 
 --
--- Indexes for table `archivos_editoriales`
+-- Indices de la tabla `archivos_editoriales`
 --
 ALTER TABLE `archivos_editoriales`
   ADD PRIMARY KEY (`id`),
   ADD KEY `id_editorial` (`id_editorial`);
 
 --
--- Indexes for table `e2_actualizaciones`
+-- Indices de la tabla `e2_actualizaciones`
 --
 ALTER TABLE `e2_actualizaciones`
   ADD PRIMARY KEY (`id`),
@@ -962,39 +1106,39 @@ ALTER TABLE `e2_actualizaciones`
   ADD KEY `e2_actualizaciones_id_libro_fkey_idx` (`id_libro`);
 
 --
--- Indexes for table `e2_audiencia`
+-- Indices de la tabla `e2_audiencia`
 --
 ALTER TABLE `e2_audiencia`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_autores`
+-- Indices de la tabla `e2_autores`
 --
 ALTER TABLE `e2_autores`
   ADD PRIMARY KEY (`id`),
   ADD KEY `e2_autores_nombres` (`nombre`) USING BTREE;
 
 --
--- Indexes for table `e2_autor_roles`
+-- Indices de la tabla `e2_autor_roles`
 --
 ALTER TABLE `e2_autor_roles`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_colecciones`
+-- Indices de la tabla `e2_colecciones`
 --
 ALTER TABLE `e2_colecciones`
   ADD PRIMARY KEY (`id`),
   ADD KEY `e2_colecciones_editorial_fkey_idx` (`editorial`);
 
 --
--- Indexes for table `e2_disponibilidad`
+-- Indices de la tabla `e2_disponibilidad`
 --
 ALTER TABLE `e2_disponibilidad`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_editoriales`
+-- Indices de la tabla `e2_editoriales`
 --
 ALTER TABLE `e2_editoriales`
   ADD PRIMARY KEY (`id`),
@@ -1003,31 +1147,31 @@ ALTER TABLE `e2_editoriales`
   ADD KEY `e2_editoriales_nombre_idx` (`nombre`) USING BTREE;
 
 --
--- Indexes for table `e2_encuadernaciones`
+-- Indices de la tabla `e2_encuadernaciones`
 --
 ALTER TABLE `e2_encuadernaciones`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_enlaces`
+-- Indices de la tabla `e2_enlaces`
 --
 ALTER TABLE `e2_enlaces`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_estado`
+-- Indices de la tabla `e2_estado`
 --
 ALTER TABLE `e2_estado`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_lenguas`
+-- Indices de la tabla `e2_lenguas`
 --
 ALTER TABLE `e2_lenguas`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_libros`
+-- Indices de la tabla `e2_libros`
 --
 ALTER TABLE `e2_libros`
   ADD PRIMARY KEY (`id`),
@@ -1052,14 +1196,14 @@ ALTER TABLE `e2_libros`
   ADD KEY `e2_id_libros_activo_origen_titulo_subtitulo_isbn_editorial` (`activo`,`origen`,`titulo`,`subtitulo`,`isbn`,`editorial`) USING BTREE;
 
 --
--- Indexes for table `e2_libros_archivos`
+-- Indices de la tabla `e2_libros_archivos`
 --
 ALTER TABLE `e2_libros_archivos`
   ADD KEY `e2_libros_archivos_id_libro_idx` (`id_libro`),
   ADD KEY `e2_libros_archivos_id_tipo_idx` (`id_tipo`);
 
 --
--- Indexes for table `e2_libros_autores`
+-- Indices de la tabla `e2_libros_autores`
 --
 ALTER TABLE `e2_libros_autores`
   ADD KEY `e2_libros_autores_id_autor_fkey_idx` (`id_autor`),
@@ -1067,7 +1211,7 @@ ALTER TABLE `e2_libros_autores`
   ADD KEY `e2_libros_autores_id_autor_roles_fkey_idx` (`id_autor_roles`);
 
 --
--- Indexes for table `e2_libros_busquedas`
+-- Indices de la tabla `e2_libros_busquedas`
 --
 ALTER TABLE `e2_libros_busquedas`
   ADD KEY `e2_libros_busquedas_id` (`id`),
@@ -1100,33 +1244,33 @@ ALTER TABLE `e2_libros_busquedas` ADD FULLTEXT KEY `e2_libros_busquedas_coleccio
 ALTER TABLE `e2_libros_busquedas` ADD FULLTEXT KEY `e2_libros_busquedas_editorial` (`editorial`);
 
 --
--- Indexes for table `e2_libros_coeditor`
+-- Indices de la tabla `e2_libros_coeditor`
 --
 ALTER TABLE `e2_libros_coeditor`
   ADD KEY `e2_libros_coeditor_editor_key_idx` (`id_libro`),
   ADD KEY `e2_libros_coeditor_editor_key_idx1` (`id_editorial`);
 
 --
--- Indexes for table `e2_libros_convenios`
+-- Indices de la tabla `e2_libros_convenios`
 --
 ALTER TABLE `e2_libros_convenios`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_libros_enlaces`
+-- Indices de la tabla `e2_libros_enlaces`
 --
 ALTER TABLE `e2_libros_enlaces`
   ADD KEY `e2_libros_enlaces_id_libro_fkey` (`id_libro`),
   ADD KEY `e2_libros_enlaces_tipo_fkey_idx` (`tipo`);
 
 --
--- Indexes for table `e2_libros_existencias`
+-- Indices de la tabla `e2_libros_existencias`
 --
 ALTER TABLE `e2_libros_existencias`
   ADD KEY `e2_libros_librerias_id_libro_idx` (`id_libro`);
 
 --
--- Indexes for table `e2_libros_identificadores`
+-- Indices de la tabla `e2_libros_identificadores`
 --
 ALTER TABLE `e2_libros_identificadores`
   ADD PRIMARY KEY (`id_tipo_identificador`,`identificador`),
@@ -1135,19 +1279,19 @@ ALTER TABLE `e2_libros_identificadores`
   ADD KEY `e2_libros_identificadores_identificador_idx` (`identificador`);
 
 --
--- Indexes for table `e2_libros_importacion`
+-- Indices de la tabla `e2_libros_importacion`
 --
 ALTER TABLE `e2_libros_importacion`
   ADD KEY `e2_libros_importacion_id_libro_fkey_idx` (`id_libro`);
 
 --
--- Indexes for table `e2_libros_importacion_historico`
+-- Indices de la tabla `e2_libros_importacion_historico`
 --
 ALTER TABLE `e2_libros_importacion_historico`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_libros_keywords`
+-- Indices de la tabla `e2_libros_keywords`
 --
 ALTER TABLE `e2_libros_keywords`
   ADD KEY `e2_libros_keywords_id_libro_fkey_idx` (`id_libro`),
@@ -1155,32 +1299,32 @@ ALTER TABLE `e2_libros_keywords`
   ADD KEY `e2_libros_keywords` (`palabra`) USING BTREE;
 
 --
--- Indexes for table `e2_libros_lenguas`
+-- Indices de la tabla `e2_libros_lenguas`
 --
 ALTER TABLE `e2_libros_lenguas`
   ADD KEY `e2_libros_lenguas_id_libro_fkey_idx` (`id_libro`),
   ADD KEY `e2_libros_lenguas_id_lengua_fkey_idx` (`id_lengua`);
 
 --
--- Indexes for table `e2_libros_metadatos`
+-- Indices de la tabla `e2_libros_metadatos`
 --
 ALTER TABLE `e2_libros_metadatos`
   ADD PRIMARY KEY (`id_libro`);
 
 --
--- Indexes for table `e2_libros_pedimentos`
+-- Indices de la tabla `e2_libros_pedimentos`
 --
 ALTER TABLE `e2_libros_pedimentos`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_libros_pedimentos_temporal`
+-- Indices de la tabla `e2_libros_pedimentos_temporal`
 --
 ALTER TABLE `e2_libros_pedimentos_temporal`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_libros_precios`
+-- Indices de la tabla `e2_libros_precios`
 --
 ALTER TABLE `e2_libros_precios`
   ADD KEY `e2_libros_precios_idx` (`id_libro`),
@@ -1191,7 +1335,7 @@ ALTER TABLE `e2_libros_precios`
   ADD KEY `e2_libros_precios_agrupados` (`vigente`,`activo`,`moneda`);
 
 --
--- Indexes for table `e2_libros_proveedor`
+-- Indices de la tabla `e2_libros_proveedor`
 --
 ALTER TABLE `e2_libros_proveedor`
   ADD KEY `e2_libros_proveedor_id_libro_fkey_idx` (`id_libro`),
@@ -1199,70 +1343,70 @@ ALTER TABLE `e2_libros_proveedor`
   ADD KEY `e2_libros_proveedor_id_libro` (`id_libro`) USING BTREE;
 
 --
--- Indexes for table `e2_libros_temas`
+-- Indices de la tabla `e2_libros_temas`
 --
 ALTER TABLE `e2_libros_temas`
   ADD KEY `e2_libros_temas_id_libro_fkey_idx` (`id_libro`),
   ADD KEY `e2_libros_temas_id_tema_fkey_idx` (`id_tema`);
 
 --
--- Indexes for table `e2_libros_temp`
+-- Indices de la tabla `e2_libros_temp`
 --
 ALTER TABLE `e2_libros_temp`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_libros_vigentes`
+-- Indices de la tabla `e2_libros_vigentes`
 --
 ALTER TABLE `e2_libros_vigentes`
   ADD KEY `e2_libros_vigentes_id_libro` (`id_libro`),
   ADD KEY `e2_libros_vigentes_vigente` (`vigente`);
 
 --
--- Indexes for table `e2_monedas`
+-- Indices de la tabla `e2_monedas`
 --
 ALTER TABLE `e2_monedas`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_nivel`
+-- Indices de la tabla `e2_nivel`
 --
 ALTER TABLE `e2_nivel`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_nivel_lectura`
+-- Indices de la tabla `e2_nivel_lectura`
 --
 ALTER TABLE `e2_nivel_lectura`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_paises`
+-- Indices de la tabla `e2_paises`
 --
 ALTER TABLE `e2_paises`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_pedimentos`
+-- Indices de la tabla `e2_pedimentos`
 --
 ALTER TABLE `e2_pedimentos`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_prelaciones`
+-- Indices de la tabla `e2_prelaciones`
 --
 ALTER TABLE `e2_prelaciones`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_proveedores_editoriales`
+-- Indices de la tabla `e2_proveedores_editoriales`
 --
 ALTER TABLE `e2_proveedores_editoriales`
   ADD KEY `e2_proveedores_editoriales_id_editorial_idx` (`id_editorial`),
   ADD KEY `e2_proveedores_editoriales_id_proveedor_idx` (`id_proveedor`);
 
 --
--- Indexes for table `e2_temas`
+-- Indices de la tabla `e2_temas`
 --
 ALTER TABLE `e2_temas`
   ADD PRIMARY KEY (`id`),
@@ -1271,38 +1415,38 @@ ALTER TABLE `e2_temas`
   ADD KEY `e2_temas_lc` (`lc`) USING BTREE;
 
 --
--- Indexes for table `e2_tipo_archivos`
+-- Indices de la tabla `e2_tipo_archivos`
 --
 ALTER TABLE `e2_tipo_archivos`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `e2_tipo_productos`
+-- Indices de la tabla `e2_tipo_productos`
 --
 ALTER TABLE `e2_tipo_productos`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `editoriales`
+-- Indices de la tabla `editoriales`
 --
 ALTER TABLE `editoriales`
   ADD PRIMARY KEY (`id_editorial`);
 
 --
--- Indexes for table `estados`
+-- Indices de la tabla `estados`
 --
 ALTER TABLE `estados`
   ADD PRIMARY KEY (`id`),
   ADD KEY `estados_estado` (`estado`) USING BTREE;
 
 --
--- Indexes for table `integraciones`
+-- Indices de la tabla `integraciones`
 --
 ALTER TABLE `integraciones`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `municipios`
+-- Indices de la tabla `municipios`
 --
 ALTER TABLE `municipios`
   ADD PRIMARY KEY (`id`),
@@ -1311,25 +1455,25 @@ ALTER TABLE `municipios`
   ADD KEY `municipios_clave` (`clave`) USING BTREE;
 
 --
--- Indexes for table `proveedores`
+-- Indices de la tabla `proveedores`
 --
 ALTER TABLE `proveedores`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `tipo_enlace`
+-- Indices de la tabla `tipo_enlace`
 --
 ALTER TABLE `tipo_enlace`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `tipo_identificador`
+-- Indices de la tabla `tipo_identificador`
 --
 ALTER TABLE `tipo_identificador`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `usuarios`
+-- Indices de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`),
@@ -1337,227 +1481,227 @@ ALTER TABLE `usuarios`
   ADD KEY `usuarios_nivel_idx` (`id_nivel`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT de las tablas volcadas
 --
 
 --
--- AUTO_INCREMENT for table `archivos_editoriales`
+-- AUTO_INCREMENT de la tabla `archivos_editoriales`
 --
 ALTER TABLE `archivos_editoriales`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
--- AUTO_INCREMENT for table `e2_actualizaciones`
+-- AUTO_INCREMENT de la tabla `e2_actualizaciones`
 --
 ALTER TABLE `e2_actualizaciones`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62643;
 
 --
--- AUTO_INCREMENT for table `e2_audiencia`
+-- AUTO_INCREMENT de la tabla `e2_audiencia`
 --
 ALTER TABLE `e2_audiencia`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=941;
 
 --
--- AUTO_INCREMENT for table `e2_autores`
+-- AUTO_INCREMENT de la tabla `e2_autores`
 --
 ALTER TABLE `e2_autores`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=385547;
 
 --
--- AUTO_INCREMENT for table `e2_autor_roles`
+-- AUTO_INCREMENT de la tabla `e2_autor_roles`
 --
 ALTER TABLE `e2_autor_roles`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=144;
 
 --
--- AUTO_INCREMENT for table `e2_colecciones`
+-- AUTO_INCREMENT de la tabla `e2_colecciones`
 --
 ALTER TABLE `e2_colecciones`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10017;
 
 --
--- AUTO_INCREMENT for table `e2_disponibilidad`
+-- AUTO_INCREMENT de la tabla `e2_disponibilidad`
 --
 ALTER TABLE `e2_disponibilidad`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
--- AUTO_INCREMENT for table `e2_editoriales`
+-- AUTO_INCREMENT de la tabla `e2_editoriales`
 --
 ALTER TABLE `e2_editoriales`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53486;
 
 --
--- AUTO_INCREMENT for table `e2_encuadernaciones`
+-- AUTO_INCREMENT de la tabla `e2_encuadernaciones`
 --
 ALTER TABLE `e2_encuadernaciones`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=138;
 
 --
--- AUTO_INCREMENT for table `e2_estado`
+-- AUTO_INCREMENT de la tabla `e2_estado`
 --
 ALTER TABLE `e2_estado`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
--- AUTO_INCREMENT for table `e2_lenguas`
+-- AUTO_INCREMENT de la tabla `e2_lenguas`
 --
 ALTER TABLE `e2_lenguas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=540;
 
 --
--- AUTO_INCREMENT for table `e2_libros`
+-- AUTO_INCREMENT de la tabla `e2_libros`
 --
 ALTER TABLE `e2_libros`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=779348;
 
 --
--- AUTO_INCREMENT for table `e2_libros_convenios`
+-- AUTO_INCREMENT de la tabla `e2_libros_convenios`
 --
 ALTER TABLE `e2_libros_convenios`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=792;
 
 --
--- AUTO_INCREMENT for table `e2_libros_importacion_historico`
+-- AUTO_INCREMENT de la tabla `e2_libros_importacion_historico`
 --
 ALTER TABLE `e2_libros_importacion_historico`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8022;
 
 --
--- AUTO_INCREMENT for table `e2_libros_metadatos`
+-- AUTO_INCREMENT de la tabla `e2_libros_metadatos`
 --
 ALTER TABLE `e2_libros_metadatos`
   MODIFY `id_libro` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=801162;
 
 --
--- AUTO_INCREMENT for table `e2_libros_pedimentos`
+-- AUTO_INCREMENT de la tabla `e2_libros_pedimentos`
 --
 ALTER TABLE `e2_libros_pedimentos`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1180;
 
 --
--- AUTO_INCREMENT for table `e2_libros_pedimentos_temporal`
+-- AUTO_INCREMENT de la tabla `e2_libros_pedimentos_temporal`
 --
 ALTER TABLE `e2_libros_pedimentos_temporal`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `e2_libros_temp`
+-- AUTO_INCREMENT de la tabla `e2_libros_temp`
 --
 ALTER TABLE `e2_libros_temp`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=441822;
 
 --
--- AUTO_INCREMENT for table `e2_monedas`
+-- AUTO_INCREMENT de la tabla `e2_monedas`
 --
 ALTER TABLE `e2_monedas`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=112;
 
 --
--- AUTO_INCREMENT for table `e2_nivel`
+-- AUTO_INCREMENT de la tabla `e2_nivel`
 --
 ALTER TABLE `e2_nivel`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
--- AUTO_INCREMENT for table `e2_paises`
+-- AUTO_INCREMENT de la tabla `e2_paises`
 --
 ALTER TABLE `e2_paises`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=241;
 
 --
--- AUTO_INCREMENT for table `e2_pedimentos`
+-- AUTO_INCREMENT de la tabla `e2_pedimentos`
 --
 ALTER TABLE `e2_pedimentos`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `e2_prelaciones`
+-- AUTO_INCREMENT de la tabla `e2_prelaciones`
 --
 ALTER TABLE `e2_prelaciones`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `e2_tipo_archivos`
+-- AUTO_INCREMENT de la tabla `e2_tipo_archivos`
 --
 ALTER TABLE `e2_tipo_archivos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- AUTO_INCREMENT for table `e2_tipo_productos`
+-- AUTO_INCREMENT de la tabla `e2_tipo_productos`
 --
 ALTER TABLE `e2_tipo_productos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=227;
 
 --
--- AUTO_INCREMENT for table `editoriales`
+-- AUTO_INCREMENT de la tabla `editoriales`
 --
 ALTER TABLE `editoriales`
   MODIFY `id_editorial` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `estados`
+-- AUTO_INCREMENT de la tabla `estados`
 --
 ALTER TABLE `estados`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
--- AUTO_INCREMENT for table `integraciones`
+-- AUTO_INCREMENT de la tabla `integraciones`
 --
 ALTER TABLE `integraciones`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
--- AUTO_INCREMENT for table `municipios`
+-- AUTO_INCREMENT de la tabla `municipios`
 --
 ALTER TABLE `municipios`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2495;
 
 --
--- AUTO_INCREMENT for table `proveedores`
+-- AUTO_INCREMENT de la tabla `proveedores`
 --
 ALTER TABLE `proveedores`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3906;
 
 --
--- AUTO_INCREMENT for table `usuarios`
+-- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1276;
 
 --
--- Constraints for dumped tables
+-- Restricciones para tablas volcadas
 --
 
 --
--- Constraints for table `archivos_editoriales`
+-- Filtros para la tabla `archivos_editoriales`
 --
 ALTER TABLE `archivos_editoriales`
   ADD CONSTRAINT `archivos_editoriales_ibfk_1` FOREIGN KEY (`id_editorial`) REFERENCES `editoriales` (`id_editorial`);
 
 --
--- Constraints for table `e2_actualizaciones`
+-- Filtros para la tabla `e2_actualizaciones`
 --
 ALTER TABLE `e2_actualizaciones`
   ADD CONSTRAINT `e2_actualizaciones_id_editor_fkey` FOREIGN KEY (`id_editor`) REFERENCES `usuarios` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `e2_actualizaciones_id_libro_fkey` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_colecciones`
+-- Filtros para la tabla `e2_colecciones`
 --
 ALTER TABLE `e2_colecciones`
   ADD CONSTRAINT `e2_colecciones_editorial_fkey` FOREIGN KEY (`editorial`) REFERENCES `e2_editoriales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_editoriales`
+-- Filtros para la tabla `e2_editoriales`
 --
 ALTER TABLE `e2_editoriales`
   ADD CONSTRAINT `e2_editoriales_id_estado` FOREIGN KEY (`id_estado`) REFERENCES `estados` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `e2_editoriales_id_municipio` FOREIGN KEY (`id_municipio`) REFERENCES `municipios` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros`
+-- Filtros para la tabla `e2_libros`
 --
 ALTER TABLE `e2_libros`
   ADD CONSTRAINT `e2_libros_coleccion_fkey` FOREIGN KEY (`coleccion`) REFERENCES `e2_colecciones` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
@@ -1569,14 +1713,14 @@ ALTER TABLE `e2_libros`
   ADD CONSTRAINT `e2_libros_tipo_producto_fkey` FOREIGN KEY (`tipo_producto`) REFERENCES `e2_tipo_productos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_archivos`
+-- Filtros para la tabla `e2_libros_archivos`
 --
 ALTER TABLE `e2_libros_archivos`
   ADD CONSTRAINT `e2_libros_archivos_id_libro` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `e2_libros_archivos_id_tipo` FOREIGN KEY (`id_tipo`) REFERENCES `e2_tipo_archivos` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_autores`
+-- Filtros para la tabla `e2_libros_autores`
 --
 ALTER TABLE `e2_libros_autores`
   ADD CONSTRAINT `e2_libros_autores_id_autor_fkey` FOREIGN KEY (`id_autor`) REFERENCES `e2_autores` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
@@ -1584,73 +1728,73 @@ ALTER TABLE `e2_libros_autores`
   ADD CONSTRAINT `e2_libros_autores_id_libro_fkey` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_coeditor`
+-- Filtros para la tabla `e2_libros_coeditor`
 --
 ALTER TABLE `e2_libros_coeditor`
   ADD CONSTRAINT `e2_libros_coeditor_editor_key` FOREIGN KEY (`id_editorial`) REFERENCES `e2_editoriales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `e2_libros_coeditor_libros_key` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_enlaces`
+-- Filtros para la tabla `e2_libros_enlaces`
 --
 ALTER TABLE `e2_libros_enlaces`
   ADD CONSTRAINT `e2_libros_enlaces_id_libro_fkey` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `e2_libros_enlaces_tipo_fkey` FOREIGN KEY (`tipo`) REFERENCES `tipo_enlace` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_existencias`
+-- Filtros para la tabla `e2_libros_existencias`
 --
 ALTER TABLE `e2_libros_existencias`
   ADD CONSTRAINT `e2_libros_existencias_id_libro` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_identificadores`
+-- Filtros para la tabla `e2_libros_identificadores`
 --
 ALTER TABLE `e2_libros_identificadores`
   ADD CONSTRAINT `e2_libros_identificadores_id_libro` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `e2_libros_identificadores_id_tipo_identificador` FOREIGN KEY (`id_tipo_identificador`) REFERENCES `tipo_identificador` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_keywords`
+-- Filtros para la tabla `e2_libros_keywords`
 --
 ALTER TABLE `e2_libros_keywords`
   ADD CONSTRAINT `e2_libros_keywords_id_libro_fkey` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_lenguas`
+-- Filtros para la tabla `e2_libros_lenguas`
 --
 ALTER TABLE `e2_libros_lenguas`
   ADD CONSTRAINT `e2_libros_lenguas_id_lengua_fkey` FOREIGN KEY (`id_lengua`) REFERENCES `e2_lenguas` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `e2_libros_lenguas_id_libro_fkey` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_precios`
+-- Filtros para la tabla `e2_libros_precios`
 --
 ALTER TABLE `e2_libros_precios`
   ADD CONSTRAINT `e2_libros_precios` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_proveedor`
+-- Filtros para la tabla `e2_libros_proveedor`
 --
 ALTER TABLE `e2_libros_proveedor`
   ADD CONSTRAINT `e2_libros_proveedor_id_libro_fkey` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_libros_temas`
+-- Filtros para la tabla `e2_libros_temas`
 --
 ALTER TABLE `e2_libros_temas`
   ADD CONSTRAINT `e2_libros_temas_id_libro_fkey` FOREIGN KEY (`id_libro`) REFERENCES `e2_libros` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `e2_libros_temas_id_tema_fkey` FOREIGN KEY (`id_tema`) REFERENCES `e2_temas` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `e2_proveedores_editoriales`
+-- Filtros para la tabla `e2_proveedores_editoriales`
 --
 ALTER TABLE `e2_proveedores_editoriales`
   ADD CONSTRAINT `e2_proveedores_editoriales_id_editorial` FOREIGN KEY (`id_editorial`) REFERENCES `e2_editoriales` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `e2_proveedores_editoriales_id_proveedor` FOREIGN KEY (`id_proveedor`) REFERENCES `proveedores` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `municipios`
+-- Filtros para la tabla `municipios`
 --
 ALTER TABLE `municipios`
   ADD CONSTRAINT `municipios_id_estado` FOREIGN KEY (`id_estado`) REFERENCES `estados` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
